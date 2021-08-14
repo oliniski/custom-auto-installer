@@ -19,7 +19,7 @@ function createWindow() {
     );
 
     if (isDev) {
-        win.webContents.openDevTools({mode: 'detach'})
+        win.webContents.openDevTools({mode: "bottom"})
     }
 }
 
